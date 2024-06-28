@@ -23,8 +23,8 @@
 23.       - name: SFTP Deploy
 24.         uses: wlixcc/SFTP-Deploy-Action@v1.2.1
 25.         with:
-26.           username: logicism
-27.           server: logicism.ddns.net
+26.           username: ubuntu
+27.           server: 150.136.96.13
 28.           port: 22 # default is 22
 29.           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
 30.  
@@ -36,5 +36,3 @@
 36.           
 37.           # sftp args
 38.           args: '-o ConnectTimeout=5'
-
-From <https://pastebin.com/qDyhc2W4> 
