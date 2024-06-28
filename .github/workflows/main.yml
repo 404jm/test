@@ -1,6 +1,6 @@
 name: CI-SFTP
 
-# Controls when the action will run.
+# Controls when the action will run. testttttt
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
