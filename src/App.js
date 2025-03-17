@@ -30,7 +30,7 @@ function App() {
         <GlobalStyle />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" exact component={Abouts} />
+          <Route path="/abouts" exact component={Abouts} />
           <Route path="/services" exact component={ServicesOffered} />
           <Route path='/portfolio' exact component={Projs} />
           <Route path="/contact" exact component={Contacts} />
